@@ -22,5 +22,3 @@ output = ollama.generate(
 )
 
 print(output["response"])
-
-print(output["context"])
