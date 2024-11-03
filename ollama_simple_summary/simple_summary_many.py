@@ -31,8 +31,6 @@ for article_url in articles:
 systemPrompt = "Create a detailed summary of these articles, describing the key principles of the Azure Well-Architected Framework."
 prompt = "Create me a summary about the key principles of the Azure Well-Architected Framework."
 
-#print(combined_text)
-
 output = ollama.generate(
             model=model, 
             prompt=prompt, 
